@@ -1,0 +1,9 @@
+package tnantoka:formatter;
+
+interface formattable {
+    format: func(text: string) -> string;
+}
+
+world formattable-provider {
+    export formattable;
+}
